@@ -1,0 +1,119 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+body
+{
+  margin: 0%;
+  padding: 0%;
+  
+}
+#navbar
+{
+  top: 0vh;
+  position: sticky;
+  padding: 2vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  width: 100%;
+  background-color: #0E103D;
+
+}
+
+a
+{
+  padding: 0.7vh 0.7vh 0.7vh 0.7vh ;
+  text-decoration: none;
+  font-size: larger;
+  color: white;
+
+}
+
+a:hover
+{
+  color: #F2D7EE;
+}
+
+#welcome-section
+{
+  height: 70vh;
+  background: rgb(207,166,179);
+background: linear-gradient(90deg, rgba(207,166,179,1) 25%, rgba(239,211,233,1) 41%, rgba(242,215,238,1) 50%, rgba(242,215,238,1) 61%, rgba(247,228,244,1) 65%, rgba(254,247,253,1) 75%);
+  color:#0E103D;
+  margin: 0%;
+}
+
+h1
+{
+  padding-top: 25vh;
+  padding-bottom: 25vh;
+  margin: 0%;
+  text-align: center;
+}
+
+.project-section
+{
+  text-align: center;
+  background-color: #0E103D;
+  color: aliceblue;
+  padding: 3.5vh 3.5vh 3.5vh 3.5vh;
+
+}
+
+h2
+{
+  padding: 1.5vh 1.5vh 1.5vh 1.5vh;
+}
+
+#projects
+{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-content: center;
+
+}
+
+#profile-link
+{
+  height: 4em;
+  margin: 3.5vh 3.5vh 3.5vh 3.5vh;
+}
+
+.btn
+{
+  background: #f1d5ec;
+  color: #0E103D;
+  width: 4rem;
+  height: 0.4vh;
+  padding: 1.5vh 3.5vh 1.5vh 3.5vh;
+  transition: background 0.5s ease-out;
+}
+
+.btn:hover
+{
+  background: #0E103D;
+}
+p:hover
+{
+  cursor: pointer;
+}
+
+#contact
+{
+  background-color: #84596B;
+  padding: 2.5vh 2.5vh 2.5vh 2.5vh;
+  color: white;
+}
+
+@media all and (max-width: 650px){
+  
+  #navbar
+  {
+    flex-direction: column;
+    text-align: center;
+  }
+
+}

@@ -1,0 +1,7 @@
+1-Html 
+2-CSS
+3-Java 
+4-FrameWorks 
+
+5-Version Control, Github
+6-DataBases
